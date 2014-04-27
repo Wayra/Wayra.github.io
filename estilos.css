@@ -21,11 +21,14 @@ body
 header
 {
 	background: #CF7330;
-	height: 76px; 
+	height: 90px; 
 	margin: 0;
 	overflow: hidden;
 	padding: 1em;
 	padding-bottom: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	padding-left: 0;
 
 }
@@ -56,23 +59,23 @@ header h1
 	padding: 0;
 	text-align: center;
 }
-nav 
+header nav 
 {
 	background: #CD682B; 
 	display:block;
 	padding: 0;
 }
- nav ul
+header nav ul
 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-nav ul li
+header nav ul li
 {
 	display: inline-block;
 }
-nav ul li a
+header nav ul li a
 {
 	color: #fff;
 	display: block;
@@ -82,13 +85,17 @@ nav ul li a
 	text-decoration: none;
 	-webkit-transition:all .5s ease;
 }
-nav ul li #color
+header nav ul li #color
 {
 	border-right: 1px solid gray;
 	border-left: 1px solid gray;
 }
 
- nav ul li a:hover
+header nav ul li a:hover
 {
 	background: #ccc;
+}
+#nav_bajo
+{
+	background: #CF7330;
 }
