@@ -35,13 +35,13 @@ header
 header figure
 {
 	float: right;
-	height: 80px;
+	height: 70px;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	right: 1em;
 	top: .5em;
-	width: 90px;
+	width: 80px;
 } 
 
 header figure img  
@@ -94,8 +94,4 @@ header nav ul li #color
 header nav ul li a:hover
 {
 	background: #ccc;
-}
-#nav_bajo
-{
-	background: #CF7330;
 }
