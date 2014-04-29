@@ -53,7 +53,7 @@ body
 	background: #010002;
 	color: #fff;
 	font-size: 16px;
-	margin: 0;
+	margin-top: 6.5em;
 	padding: 0;
 }
 header
@@ -138,5 +138,48 @@ header nav ul li a:hover
 
 #articulos .item
 {
-	background: #ccc;
+	background: #b5b5b5;
+	margin: 0 auto;
+	max-width: 900px;
+	padding: .5em;
+}
+#articulos .item .usuario_avatar 
+{
+	margin: 0 auto;
+	max-height: 50px;
+	max-width: 150px;
+	padding-bottom: 1em;
+}
+#articulos .item .usuario_avatar a img
+{
+	border-radius: 40px;
+	display: inline-block;	
+	width: 100%;
+}
+#articulos .item .contenido
+{
+	background: #fff;
+	border-radius: 1.5em;
+	box-shadow: 5px 5px 10px;
+	color: #222;
+	display: inline-block;
+	margin-top: 2em;
+}
+#articulos .item .contenido .foto
+{
+	margin: 0 auto;
+	max-width: 900px;
+}
+#articulos .item .contenido .foto img
+{
+	border-top-right-radius: 1.5em;
+	border-top-left-radius: 1.5em;
+	width: 100%;
+}
+#nav_bajo
+{
+	background: #CD682B;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
 }
