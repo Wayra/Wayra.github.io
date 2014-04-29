@@ -35,13 +35,13 @@ header
 header figure
 {
 	float: right;
-	height: 70px;
+	height: 65px;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	right: 1em;
-	top: .5em;
-	width: 80px;
+	top: 0;
+	width: 75px;
 } 
 
 header figure img  
