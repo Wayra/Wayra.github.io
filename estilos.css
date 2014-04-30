@@ -20,6 +20,34 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts2/icomoon.eot?gwsbg9');
+	src:url('fonts2/icomoon.eot?#iefixgwsbg9') format('embedded-opentype'),
+		url('fonts2/icomoon.woff?gwsbg9') format('woff'),
+		url('fonts2/icomoon.ttf?gwsbg9') format('truetype'),
+		url('fonts2/icomoon.svg?gwsbg9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -48,6 +76,26 @@
 }
 
 
+.icon-comentarios:before {
+	color: blue;
+	content: "\e600";
+	font-size: 1.3em;
+}
+.icon-mas:before {
+	color: red;
+	content: "\e601";
+	font-size: 1.3em;
+	padding: .5em;
+}
+.icon-menos:before {
+	color: green;
+	content: "\e602";
+	font-size: 1.3em;
+	padding: .5em;
+	
+}
+
+
 body
 {
 	background: #010002;
@@ -56,6 +104,11 @@ body
 	margin-top: 6.5em;
 	padding: 0;
 }
+body a
+{
+	text-decoration: none;
+}
+
 header
 {
 	background: #CF7330;
@@ -143,19 +196,6 @@ header nav ul li a:hover
 	max-width: 900px;
 	padding: .5em;
 }
-#articulos .item .usuario_avatar 
-{
-	margin: 0 auto;
-	max-height: 50px;
-	max-width: 150px;
-	padding-bottom: 1em;
-}
-#articulos .item .usuario_avatar a img
-{
-	border-radius: 40px;
-	display: inline-block;	
-	width: 100%;
-}
 #articulos .item .contenido
 {
 	background: #fff;
@@ -176,6 +216,54 @@ header nav ul li a:hover
 	border-top-left-radius: 1.5em;
 	width: 100%;
 }
+
+#articulos .item .contenido .texto_cont 
+{
+	padding: .5em;
+}
+#articulos .item .contenido .texto_cont h2
+{
+	margin: 0;
+	padding: .5em	;
+	text-align: center;
+}
+#articulos .item .contenido .texto_cont p
+{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+
+#articulos .item .usuario_avatar 
+{
+	margin: 0 auto;
+	max-height: 50px;
+	max-width: 150px;
+	padding-bottom: 1em;
+}
+#articulos .item .usuario_avatar a img
+{
+	border-radius: 40px;
+	display: inline-block;	
+	width: 100%;
+}
+#articulos .item .votacion
+{
+	background: #fff;
+	border: 1.5px solid #222;
+	border-radius: 5em;
+	color: #222;
+	padding: .5em;
+	text-align: center;
+}
+
+#articulos .item .votacion p
+{
+	display: inline-block;	
+	margin: 0;
+	padding: .1em;
+}
+
 #nav_bajo
 {
 	background: #CD682B;
