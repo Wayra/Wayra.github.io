@@ -108,6 +108,12 @@ body a
 {
 	text-decoration: none;
 }
+button
+{
+	background: #222;
+	border-radius: 5px;
+	color: black;
+}
 footer
 {
 	background: black;
@@ -125,6 +131,8 @@ footer p
 header
 {
 	background: #759052;
+	border-bottom: 1px solid #000;
+	box-shadow: rgba(0,0,0,0.4) 5px 5px 5px;
 	height: 90px; 
 	margin: 0;
 	overflow: hidden;
@@ -278,6 +286,25 @@ header nav ul li a:hover
 	display: inline-block;	
 	margin: 0;
 	padding: .1em;
+}
+#main_part
+{
+	margin-top: 6em;
+}
+#main_part h2
+{
+	color: #222;
+	font-size: 2em;
+}
+#mas
+{
+	background: #222;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
+	padding: 1em;
+	position: absolute;
+	right: 50%;
 }
 
 
