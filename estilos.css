@@ -108,6 +108,19 @@ body a
 {
 	text-decoration: none;
 }
+footer
+{
+	background: black;
+	padding: 1em;
+	text-align: center;
+}
+footer p
+{
+	font-family: 'existencestencil_light';
+	font-size: 1.5em;
+	margin: 0;
+	padding:0;
+}
 
 header
 {
@@ -191,7 +204,7 @@ header nav ul li a:hover
 
 #articulos .item
 {
-	background: #FFF;
+	background: #bcc1b7;
 	border: .3px solid #222;
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
@@ -206,6 +219,7 @@ header nav ul li a:hover
 	color: #222;
 	display: inline-block;
 	margin-top: 2em;
+	margin-right: .5em;
 }
 #articulos .item .contenido .foto
 {
@@ -287,8 +301,9 @@ header nav ul li a:hover
 	#articulos .item	
 	{
 		max-width: 850px;
-		position: relative;
 		overflow: hidden;
+		padding: .6em;
+		position: relative;
 		z-index: -1;
 	}
 	#articulos .item .contenido
