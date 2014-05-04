@@ -236,12 +236,14 @@ header nav ul li a:hover
 {
 	margin: 0 auto;
 	max-width: 900px;
+	max-height: 350px;
 }
 #articulos .item .contenido .foto img
 {
 	border-top-right-radius: 1.5em;
 	border-top-left-radius: 1.5em;
 	width: 100%;
+	max-height: 350px;
 }
 
 #articulos .item .contenido .texto_cont 
