@@ -330,6 +330,11 @@ header nav ul li a:hover
 		top: 1.5em;
 		right: 50%;
 	}
+	#articulos .item
+	{
+		margin: 0 auto;
+		margin: .5em;
+	}
 	#articulos .item:nth-child(even)
 	{
 		display: inline-block;
