@@ -98,7 +98,7 @@
 
 body
 {
-	background: #010002;
+	background: #f0f0f0;
 	color: #fff;
 	font-size: 16px;
 	margin-top: 5.6em;
@@ -111,7 +111,7 @@ body a
 
 header
 {
-	background: #CF7330;
+	background: #759052;
 	height: 90px; 
 	margin: 0;
 	overflow: hidden;
@@ -152,7 +152,7 @@ header h1
 }
 header nav 
 {
-	background: #CD682B; 
+	background: #7ca566; 
 	display:block;
 	padding: 0;
 }
@@ -191,9 +191,12 @@ header nav ul li a:hover
 
 #articulos .item
 {
-	background: #b5b5b5;
+	background: #FFF;
+	border: .3px solid #222;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
 	margin: 0 auto;
-	padding: .5em;
+	margin-bottom: 1em;
 }
 #articulos .item .contenido
 {
