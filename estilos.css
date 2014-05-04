@@ -209,7 +209,10 @@ header nav ul li a:hover
 	background: #fff;
 	color: black;
 }
-
+#articulos
+{
+	padding: 1em;
+}
 #articulos .item
 {
 	background: #bcc1b7;
