@@ -230,6 +230,7 @@ header nav ul li a:hover
 	box-shadow: 5px 5px 10px;
 	color: #222;
 	display: inline-block;
+	height: 100%;	
 	margin-top: 2em;
 	margin-right: .5em;
 }
@@ -312,9 +313,13 @@ header nav ul li a:hover
 	position: absolute;
 	right: 50%;
 }
+#wrapper
+{
+	margin: 0 auto;
+	max-width: 900px;
+}
 
-
-@media screen and (min-width: 680px){
+@media screen and (min-width: 900px){
 	body
 	{
 		margin-top: 3.7em;
@@ -330,17 +335,10 @@ header nav ul li a:hover
 		top: 1.5em;
 		right: 50%;
 	}
+
 	#articulos .item
 	{
-		margin: 0 auto;
-		margin: .5em;
-	}
-	#articulos .item:nth-child(even)
-	{
 		display: inline-block;
-	}
-	#articulos .item:nth-child(odd)
-	{
-		display: inline-block;
+		margin: 1em;
 	}
 }	
