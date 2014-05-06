@@ -98,7 +98,7 @@
 
 body
 {
-	background: #f0f0f0;
+	background: #EDEEEF;
 	color: #fff;
 	font-size: 16px;
 	margin-top: 5.6em;
@@ -319,7 +319,7 @@ header nav ul li a:hover
 	max-width: 900px;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 880px){
 	body
 	{
 		margin-top: 3.7em;
