@@ -9,7 +9,5 @@ var $button = $('#mas');
  	else{
  		
  		$button.remove();
- 	}
- 		
-
+ 	}		
  })
