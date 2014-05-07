@@ -67,7 +67,7 @@ header
 }
 header #fondo-wall
 {
-	margin: 0;
+	margin: 0 auto;
 	max-width: 800px;
 	padding: 0;
 	position: relative;
@@ -77,6 +77,8 @@ header h1
 	color: #FFF;
 	font-family: 'existencestencil_light';
 	font-size: 2.2em;
+	margin: 0;
+	padding: 0;
 	position: absolute;
 	text-align: center;
 	top: .5em;
@@ -91,5 +93,5 @@ header #fondo-wall img
 {
 	background: #EDEEEF;
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 800px;
 }
