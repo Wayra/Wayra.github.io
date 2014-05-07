@@ -68,7 +68,6 @@ header
 header #fondo-wall
 {
 	margin: 0 auto;
-	max-width: 800px;
 	padding: 0;
 	position: relative;
 }
@@ -93,5 +92,5 @@ header #fondo-wall img
 {
 	background: #EDEEEF;
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 666px;
 }
