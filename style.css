@@ -134,6 +134,7 @@ header #fondo-wall img
 #wrapper
 {
 	background: rgba(0,0,0,0.7);
+	box-shadow: rgba(0,0,0,0.7) 10px 10px 20px;
 	margin: 0 auto;
 	max-width: 660px;
 }
