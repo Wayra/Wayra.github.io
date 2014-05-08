@@ -110,14 +110,21 @@ header #fondo-wall img
 	padding: .5em;
 	padding-bottom: 2em;
 }
-#main-part #idea1 #texto
+#main-part #idea1 .texto
 {
 	margin: .5em;
 }
+#main-part #idea1 .texto h2
+{
+	font-size: 2em;
+	text-align: center;
+}
+
 #main-part #idea1 .texto p 
 {
 	margin: 0;
 	padding: 0;
+	text-align: justify;
 }
 #main-part #idea1 figure
 {
