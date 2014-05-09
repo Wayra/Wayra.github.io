@@ -57,26 +57,81 @@ footer
 {
 	background:#222;
 	bottom: 0;
+	cursor: pointer;
 	height: 50px;
 	margin: 0;
-	padding: .5em;
 	position: fixed;
 	width: 100%;
 	max-width: 660px;
 	z-index: 1;
 }
-footer #icon
-{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-footer a
+footer div:first-child
 {
 	color: #fff;
+	display: none;
+	float: left;
 	font-size: 2em;
+	height: 100%;
 	padding: 0.2em;
+	text-align: center;
+	width: 48%;
 }
+footer div:first-child:hover
+{
+	background: #555;
+	color: #222;
+}
+footer .arrow:first-child
+{
+	color: #fff;
+	float: left;
+	font-size: 2em;
+	height: 100%;
+	padding: 0.2em;
+	text-align: center;
+	width: 50%;
+}
+footer .arrow:first-child:hover
+{
+	background: #555;
+	color: #222;
+}
+
+footer div:last-child
+{
+	color: #fff;
+	float: right;
+	font-size: 2em;
+	height: 100%;
+	padding: 0.2em;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+footer div:last-child:hover
+{
+	background: #555;
+	color: #222;
+}
+footer .arrow:last-child
+{
+	color: #fff;
+	float: right;
+	font-size: 2em;
+	height: 100%;
+	padding: 0.2em;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	width: 48%;
+}
+footer .arrow:last-child:hover
+{
+	background: #555;
+	color: #222;
+}
+
 header
 {
 	margin: 0;
@@ -84,7 +139,7 @@ header
 }
 header h1
 {
-	color: #78eaea;
+	color: #fff;
 	font-family: 'Pacifico', cursive;
 	font-size: 2.6em;
 	margin: 0;
@@ -107,35 +162,41 @@ header #fondo-wall img
 	min-width: 320px;
 	width: 100%; 	
 }
-#main-part #idea1
+#main-part #idea1,
+#main-part #idea2
 {
 	padding: .5em;
 	padding-bottom: 2em;
 }
-#main-part #idea1 .texto
+#main-part #idea1 .texto,
+#main-part #idea2 .texto
 {
 	margin: .5em;
 }
 #main-part #idea1 .texto h2
+#main-part #idea2 .texto h2
 {
 	font-size: 2em;
 	text-align: center;
 }
 
-#main-part #idea1 .texto p 
+#main-part #idea1 .texto p, 
+#main-part #idea2 .texto p
 {
 	margin: 0;
 	padding: 0;
 	text-align: justify;
 }
-#main-part #idea1 figure
+#main-part #idea1 figure,
+#main-part #idea2 figure
 {
 	margin: 0 auto;
 	max-width: 160px;
 	max-height: 255px;
 	
 }
-#main-part #idea1 figure img
+#main-part #idea1 figure img,
+#main-part #idea2 figure img
 {
 	margin: 0 auto;
 	width: 100%;
@@ -150,6 +211,7 @@ header #fondo-wall img
 	box-shadow: rgba(0,0,0,0.7) 10px 10px 20px;
 	margin: 0 auto;
 	max-width: 660px;
+	padding-bottom: 1em;
 }
 @media screen and (min-width: 1210px){
 	body

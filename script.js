@@ -1,5 +1,5 @@
 var $button = $('#mas');
- 
+
  $.get('usuario.json',function(info){
  	var creaciones = info.creaciones;
 
@@ -11,3 +11,4 @@ var $button = $('#mas');
  		$button.remove();
  	}		
  })
+
