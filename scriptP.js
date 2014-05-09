@@ -21,8 +21,9 @@ function moveIdeas()
 		i += 1;
 		if(i > 0){
 
-			ideas[i - 1].fadeOut();
-			ideas[i].fadeIn();
+			ideas[i - 1].fadeOut('slow',function(){
+				ideas[i].fadeIn();
+			});
 
 			$rightB.addClass('arrow');
 
@@ -35,8 +36,9 @@ function moveIdeas()
 		console.log(i);
 		i -= 1;
 
-		ideas[i + 1].fadeOut();
-		ideas[i].fadeIn();
+		ideas[i + 1].fadeOut('slow',function(){
+			ideas[i].fadeIn();
+		});
 		if(i == 0){
 			$leftB.fadeOut();
 			$leftB.removeClass('arrow');
