@@ -21,7 +21,7 @@ function moveIdeas()
 		i += 1;
 		if(i > 0){
 
-			ideas[i - 1].fadeOut('slow',function(){
+			ideas[i - 1].fadeOut(300,function(){
 				ideas[i].fadeIn();
 			});
 
@@ -36,7 +36,7 @@ function moveIdeas()
 		console.log(i);
 		i -= 1;
 
-		ideas[i + 1].fadeOut('slow',function(){
+		ideas[i + 1].fadeOut(300,function(){
 			ideas[i].fadeIn();
 		});
 		if(i == 0){
