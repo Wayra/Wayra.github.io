@@ -74,7 +74,7 @@ footer div:first-child
 	height: 100%;
 	padding: 0.2em;
 	text-align: center;
-	width: 48%;
+	width: 100%;
 }
 footer div:first-child:hover
 {
@@ -163,25 +163,36 @@ header #fondo-wall img
 	width: 100%; 	
 }
 #main-part #idea1,
-#main-part #idea2
+#main-part #idea2,
+#main-part #idea3,
+#main-part #idea4
+
 {
 	padding: .5em;
 	padding-bottom: 2em;
 }
 #main-part #idea1 .texto,
-#main-part #idea2 .texto
+#main-part #idea2 .texto,
+#main-part #idea3 .texto,
+#main-part #idea4 .texto
 {
 	margin: .5em;
 }
-#main-part #idea1 .texto h2
-#main-part #idea2 .texto h2
+#main-part #idea1 .texto h2,
+#main-part #idea2 .texto h2,
+#main-part #idea3 .texto h2,
+#main-part #idea4 .texto h2
+
 {
 	font-size: 2em;
 	text-align: center;
 }
 
 #main-part #idea1 .texto p, 
-#main-part #idea2 .texto p
+#main-part #idea2 .texto p,
+#main-part #idea3 .texto p,
+#main-part #idea4 .texto p
+
 {
 	margin: 0;
 	padding: 0;
@@ -195,16 +206,28 @@ header #fondo-wall img
 	max-height: 255px;
 	
 }
+#main-part #idea3 figure,
+#main-part #idea4 figure
+{
+	margin: 0 auto;
+	max-width: 300px;
+}
+
 #main-part #idea1 figure img,
-#main-part #idea2 figure img
+#main-part #idea2 figure img,
+#main-part #idea3 figure img,
+#main-part #idea4 figure img
 {
 	margin: 0 auto;
 	width: 100%;
 }
-#main-part #idea2
+#main-part #idea2,
+#main-part #idea3,
+#main-part #idea4
 {
 	display: none;
 }
+
 #wrapper
 {
 	background: rgba(0,0,0,0.7);
