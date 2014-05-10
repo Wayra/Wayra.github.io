@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Raleway);
 
 @font-face {
     font-family: 'alpha_echoregular';
@@ -140,7 +139,7 @@ header
 header h1
 {
 	color: #fff;
-	font-family: 'Pacifico', cursive;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 2.6em;
 	margin: 0;
 	padding: 0;
