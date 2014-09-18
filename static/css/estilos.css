@@ -109,7 +109,187 @@ header #logo a img
 	width: 100%;
 	height: 100%;
 }
-#banneritos #conocenos .banner
+
+#banneritos
 {
-	background: url("../static/images/banner1.jpg");
+	font-family: 'cantarellbold';
+	position: relative;
+	overflow: hidden;
+}
+
+#banneritos  #banner-conocenos
+{
+	color: white;
+	position: relative;
+	max-height: 250px;
+	width: 100%;
+}
+#banneritos #banner-conocenos figure
+{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+#banneritos  #banner-conocenos figure img
+{
+	margin: 0;
+	opacity: 0.8;
+	height: 100%;
+
+	width: 100%;
+}
+#banneritos #banner-conocenos h2
+{
+	position: absolute;
+	text-align: center;
+	top: 1em;
+}
+#banneritos #banner-conocenos a
+{
+
+	position: absolute;
+	top: 2em;
+}
+
+
+
+#banneritos #banner-servicios
+{
+	color: white;
+	display: inline-block;
+	max-height: 150px;
+	position: relative;
+	width: 50%;
+}
+#banneritos #banner-servicios figure
+{
+	margin: 0;
+	height: 100%;
+}
+#banneritos  #banner-servicios figure img
+{
+	margin: 0;
+	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+}
+#banneritos #banner-servicios h2
+{
+	color: black;
+	position: absolute;
+	text-align: center;
+	top: 1em;
+}
+
+
+#banneritos #banner-especialidades
+{
+	color: white;
+	left: 50%;
+	margin: 0;
+	max-height: 150px;
+	padding: 0;
+	position: absolute;
+	top: 15.65em;
+	width: 50%;
+}
+#banneritos #banner-especialidades figure
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+#banneritos  #banner-especialidades figure img
+{
+	margin: 0;
+	opacity: 0.8;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+#banneritos #banner-especialidades h2
+{
+	color: black;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 1em;
+}
+
+#conocenos p 
+{
+	color: #6B696C;
+	margin: 0 auto;
+	padding: .5em;
+	max-width: 310px;
+}
+#conocenos figure
+{
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 400px;
+}
+#conocenos figure img
+{
+	border-radius: 50px;
+	box-shadow: rgba(0,0,0,0.7) 15px 15px 15px;	
+	width: 100%;
+}
+
+
+#servicios
+{
+	background: #5D9FC7;
+	color: #F7F7F7;
+}
+#servicios  h2
+{
+	padding: 1em;
+	text-align: center;
+}
+#servicios #ingenieria figure 
+{
+	max-width: 400px;
+	margin: 0 auto;
+}
+#servicios #ingenieria figure figcaption
+{
+	text-align:  center;
+	margin: 0;
+}
+#servicios #ingenieria figure img
+{
+	width: 100%;
+}
+
+#servicios #seguridad figure 
+{
+	max-width: 400px;
+	margin: 0 auto;
+}
+#servicios #seguridad figure figcaption
+{
+	text-align:  center;
+	margin: 0;
+}
+#servicios #seguridad figure img
+{
+	width: 100%;
+}
+
+#servicios #telecomunicaciones figure 
+{
+	max-width: 400px;
+	margin: 0 auto;
+}
+#servicios #telecomunicaciones figure figcaption
+{
+	text-align:  center;
+	margin: 0;
+}
+#servicios #telecomunicaciones figure img
+{
+	width: 100%;
 }
