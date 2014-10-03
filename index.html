@@ -9,53 +9,55 @@
 	<link rel="stylesheet"  href="../static/css/normalize.css">
 </head>
 <body>
-	<header >
-		<figure id = "logo"> 
-			<a href = "index.html"><img src="static/images/logo1.jpg" alt = "Logo"></a>
+	<header class = "Header">
+
+		<figure  class = "Header-imageLogoContainer" id = "logo"> 
+			<a href = "index.html"><img class = "Header-imageLogo" src="../static/images/logo1.jpg" alt = "Logo"></a>
 		</figure>
 		
-		<h1> TORREMAR INGENIEROS</h1>
+		<h1 class = "Header-Title"> TORREMAR INGENIEROS</h1>
 
-		<div >
-			<figure id = "bar-button">
-				<a href = "#"><img src="static/images/button.png"></a>
+		<div class = "Header-Button">
+			<figure class = "Header-imageButtonContainer" id = "bar-button">
+				<a href = "#"><img class = "Header-imageButton" src="../static/images/button.png"></a>
 			</figure>
 		</div>
 
-		<nav id = "navegador">
-			<ul>
-				<li>
-					<a href = "#conocenos">CONOCENOS</a>
+		<nav class = "Header-Nav" id = "navegador">
+			<ul class = "Header-listNav">
+				<li class = "Header-navItem">
+					<a class = "Header-navLink" href = "#conocenos">CONOCENOS</a>
 				</li>
-				<li>
-					<a href = "#servicios">SERVICIOS</a>
+				<li class = "Header-navItem">
+					<a class = "Header-navLink" href = "#servicios">SERVICIOS</a>
+				</li >
+				<li class = "Header-navItem">
+					<a class = "Header-navLink" href = "#especialidades">ESPECIALIDADES</a>
 				</li>
-				<li>
-					<a href = "#especialidades">ESPECIALIDADES</a>
-				</li>
-				<li>
-					<a href = "#contacto">CONTACTO</a>
+				<li class = "Header-navItem">
+					<a class = "Header-navLink" href = "#contacto">CONTACTO</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<section id = "banneritos">
-		<div id = "banner-conocenos">
-			<figure>
-				<img src="static/images/banner1.jpg">
+
+	<section class = "Banners">
+		<div id = "banner" class = "Banners-Conocenos">
+			<figure class = "Banners-imageConocenosConteiner">
+				<img class = "Banners-imageConocenos" src="../static/images/banner1.jpg">
 			</figure>
-			<h2>TENEMOS LA MEJOR SOLUCION PARA TI Y TU NEGOCIO</H2>										
-			<a href = "#contacto">Contactanos</a>
+			<h2 >TENEMOS LA MEJOR SOLUCION PARA TI Y TU NEGOCIO</H2>										
+			<a href = "#contacto" class "Banners-linkConocenos">Contactanos</a>
 		</div>
-		<div id = "banner-servicios">
-			<figure>
-				<a href = "#servicios"><img src="static/images/banner2.png"></a>
+		<div class = "Banner-Servicios">
+			<figure class = "Banner-serviciosConteiner">
+				<a href = "#servicios"><img class = "Banner-imageServicios" src="../static/images/banner2.png"></a>
 			</figure>
 			<h2>NUESTROS SERVICIOS</h2>
 		</div>		
 		<div id = "banner-especialidades">
 			<figure>
-				<a href = "#especialidades"><img src="static/images/banner3.jpg"></a>
+				<a href = "#especialidades"><img src="../static/images/banner3.jpg"></a>
 			</figure>
 			<h2> NUESTRAS ESPECIALIDADAES</H2></a>
 		</div>
@@ -64,76 +66,51 @@
 	<section id = "conocenos">
 			<p>Somos una empresa peruana interesados en brindar  un servicio que  satisfaga enteramente a nuestros clientes.</p>
 			<figure>
-				<img src="static/images/im1.jpg">
+				<img src="../static/images/im1.jpg">
 			</figure>
 			<p>Con los mejores productos,  alto estándar de calidad, tecnología y profesionalismo.</p>
 	</section>
 
 	<section id = "servicios">
-		<h2>NOS DEDICAMOS A BRINDAR LOS SERVICIOS DE CONSULTORIA, DISEÑO, <br>IMPLEMENTACION Y MONITOREO DE:</br></h2>
+		<h2>NOS DEDICAMOS A BRINDAR LOS SERVICIOS DE CONSULTORIA, DISEÑO, IMPLEMENTACION Y MONITOREO DE:</h2>
 
-		<div id = "ingenieria">
+		<article id = "seguridad_electronica">
 			<figure>
-				<img src="static/images/ingenieria.png">
-				<figcaption>Proyectos Integrales en Ingeniería</figcaption>
+				<a href="seguridad_electronica.html"><img src="../static/images/seguridad_electronica.png"></a>
+				<figcaption>Seguridad Electrónica</figcaption>
 			</figure>
-		</div>
-
-		<div id = "seguridad">
+		</article>
+		
+		<article id = "telecomunicaciones">
 			<figure>
-				<img src = "static/images/seguridad.png">
-				<figcaption>Trabajos de seguridad electrónica</figcaption>
+				<a href="telecomunicaciones.html"><img src="../static/images/telecomunicaciones.png"></a>
+				<figcaption>Telecomunicaciones</figcaption>
+			</figure>
+		</article>
+
+		<article id = "electricidad">
+			<figure>
+				<a href="electricidad.html"><img src = "../static/images/electricidad.png"></a>
+				<figcaption>Electricidad</figcaption>
 			</fiugre>
-		</div>
+		</article>
 
-		<div id = "telecomunicaciones">
+		<article id = "audio_video">
 			<figure>
-				<img src="static/images/telecomunicaciones.png">
-				<figcaption>Sistemas de telecomunicaciones</figcaption>
+				<a href="audio_video.html"><img src="../static/images/audio_video.png"></a>
+				<figcaption>Audio y Vídeo</figcaption>
 			</figure>
-		</div>
-	</section>
+		</article>
 
-	<section id = "especialidades">
-			<h2> ADEMÁS DE NUESTROS SERVICIOS SOMOS ESPCIALISTAS EN: </h2>
-			<div class = "secoform">
-				<figure>
-					<img src = "static/images/i1.jpg">
-				</figure>
-				<figcaption>
-					<ul>
-						<li>Videovigilancia</li>
-						<li>Control de accesos</li>
-						<li>Sistemas de detección de incendios</li>
-					<ul>
-				</figcaption>
-			</div>
-				<div class = "secoform">
-				<figure>
-					<img src = "static/images/i2.jpg">
-				</figure>
-				<figcaption>
-					<ul>
-						<li>Monitoreo remoto vía IP</li>
-						<li>Seguridad Perimetral</li>
-						<li>Redes de voz y dato con cableado estructurado</li>
-					<ul>
-				</figcaption>
-			</div>
-				<div class = "secoform">
-				<figure>
-					<img src = "static/images/i3.jpg">
-				</figure>
-				<figcaption>
-					<ul>
-						<li>Fibra Optica e Inalámbrica</li>
-						<li>Sistemas de Puesta a Tierra</li>
-						<li>Sistemas de Aire Acondicionado</li>
-					<ul>
-				</figcaption>
-			</div>
+		<article id = "ingenieria">
+			<figure>
+				<a href="ingenieria.html"><img src="../static/images/ingenieria.png"></a>
+				<figcaption>Ingeniería</figcaption>
+			</figure>
+		</article>
 
 	</section>
+
 
 	<section id = "contacto">
 			<h3>CONTACTO</h3>
@@ -152,7 +129,7 @@
 	<footer>
 		
 	</footer>
-	<script type = "text/javascript" src = "static/js/jQuery.js"></script>
-	<script type="text/javascript" src = "static/js/script.js"></script>
+	<script type = "text/javascript" src = "../static/js/jQuery.js"></script>
+	<script type="text/javascript" src = "../static/js/script.js"></script>
 </body>
 </html>
