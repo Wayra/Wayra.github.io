@@ -9,127 +9,191 @@
 	<link rel="stylesheet"  href="../static/css/normalize.css">
 </head>
 <body>
-	<header class = "Header">
 
-		<figure  class = "Header-imageLogoContainer" id = "logo"> 
-			<a href = "index.html"><img class = "Header-imageLogo" src="../static/images/logo1.jpg" alt = "Logo"></a>
-		</figure>
+		<header class = "Header">
+
+			<figure  class = "Header-imageLogoContainer" id = "logo"> 
+				<a href = "index.html"><img class = "Header-imageLogo" src="../static/images/logo1.jpg" alt = "Logo"></a>
+			</figure>
+			
+			<h1 class = "Header-Title"> TORREMAR INGENIEROS</h1>
+
+			<div class = "Header-Button">
+				<figure class = "Header-imageButtonContainer" id = "bar-button">
+					<a href = "#"><img class = "Header-imageButton" src="../static/images/button.png"></a>
+				</figure>
+			</div>
+
+			<nav class = "Header-Nav" id = "navegador">
+				<ul class = "Header-listNav">
+					<li class = "Header-navItem">
+						<a class = "Header-navLink" href = "#conocenos">CONOCENOS</a>
+					</li>
+					<li class = "Header-navItem">
+						<a class = "Header-navLink" href = "#servicios">SERVICIOS</a>
+					</li >
+					<li class = "Header-navItem">
+						<a class = "Header-navLink" href = "#especialidades">ESPECIALIDADES</a>
+					</li>
+					<li class = "Header-navItem">
+						<a class = "Header-navLink" href = "#contacto">CONTACTO</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class = "Banners">
+			<div class = "Banners-Conocenos">
+				<h2 class = "Banners-ConocenosTitulo">TENEMOS LA MEJOR SOLUCION PARA TI Y TU NEGOCIO</H2>										
+				<a href = "#contacto" class = "Banners-linkConocenos">Contactanos</a>
+			</div>
 		
-		<h1 class = "Header-Title"> TORREMAR INGENIEROS</h1>
+		</section>
 
-		<div class = "Header-Button">
-			<figure class = "Header-imageButtonContainer" id = "bar-button">
-				<a href = "#"><img class = "Header-imageButton" src="../static/images/button.png"></a>
-			</figure>
-		</div>
+		<section class = "Conocenos">
+				<p class = "Conocenos-Text">Somos una empresa peruana interesados en brindar  un servicio que  satisfaga enteramente a nuestros clientes.Con los mejores productos,  alto estándar de calidad, tecnología y profesionalismo.</p>
+				<figure class = "Conocenos-ImageConteiner">
+					<img class = "Conocenos-Image" src="../static/images/im1.jpg">
+				</figure>
+		</section>
 
-		<nav class = "Header-Nav" id = "navegador">
-			<ul class = "Header-listNav">
-				<li class = "Header-navItem">
-					<a class = "Header-navLink" href = "#conocenos">CONOCENOS</a>
-				</li>
-				<li class = "Header-navItem">
-					<a class = "Header-navLink" href = "#servicios">SERVICIOS</a>
-				</li >
-				<li class = "Header-navItem">
-					<a class = "Header-navLink" href = "#especialidades">ESPECIALIDADES</a>
-				</li>
-				<li class = "Header-navItem">
-					<a class = "Header-navLink" href = "#contacto">CONTACTO</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+		<section class = "Servicios">
+			<h2 class = "Servicios-Titulo">NOS DEDICAMOS A BRINDAR LOS SERVICIOS DE CONSULTORIA, DISEÑO, IMPLEMENTACION Y MONITOREO DE:</h2>
 
-	<section class = "Banners">
-		<div id = "banner" class = "Banners-Conocenos">
-			<figure class = "Banners-imageConocenosConteiner">
-				<img class = "Banners-imageConocenos" src="../static/images/banner1.jpg">
-			</figure>
-			<h2 >TENEMOS LA MEJOR SOLUCION PARA TI Y TU NEGOCIO</H2>										
-			<a href = "#contacto" class "Banners-linkConocenos">Contactanos</a>
-		</div>
-		<div class = "Banner-Servicios">
-			<figure class = "Banner-serviciosConteiner">
-				<a href = "#servicios"><img class = "Banner-imageServicios" src="../static/images/banner2.png"></a>
-			</figure>
-			<h2>NUESTROS SERVICIOS</h2>
-		</div>		
-		<div id = "banner-especialidades">
-			<figure>
-				<a href = "#especialidades"><img src="../static/images/banner3.jpg"></a>
-			</figure>
-			<h2> NUESTRAS ESPECIALIDADAES</H2></a>
-		</div>
-	</section>
+			<article class = "Servicios-SeguridadElectronica">
+				<figure class = "Servicios-SeguridadElectronicaImageConteiner">
+					<a href="#seguridad_electronica" class = "Servicios-SeguridadElectronicaLink">
+						<img class = "Servicios-SeguridadElectronicaImage" src="../static/images/seguridad_electronica.png">
+					</a>
+					
+			</article>
+			
+			<article class = "Servicios-Telecomunicaciones">
+				<figure>
+					<a href="#telecomunicaciones" class = "Servicios-TelecomunicacionesImageLink"><img src="../static/images/telecomunicaciones.png"></a>
+					
+				</figure>
+			</article>
 
-	<section id = "conocenos">
-			<p>Somos una empresa peruana interesados en brindar  un servicio que  satisfaga enteramente a nuestros clientes.</p>
-			<figure>
-				<img src="../static/images/im1.jpg">
-			</figure>
-			<p>Con los mejores productos,  alto estándar de calidad, tecnología y profesionalismo.</p>
-	</section>
+			<article id = "electricidad" class = "Servicios-Electricidad">
+				<figure class = "Servicios-ElectricidadImageConteiner">
+					<a href="#electricidad" class ="Servicios-ElectricidadImage"><img src = "../static/images/electricidad.png"></a>
+					
+				</fiugre>
+			</article>
 
-	<section id = "servicios">
-		<h2>NOS DEDICAMOS A BRINDAR LOS SERVICIOS DE CONSULTORIA, DISEÑO, IMPLEMENTACION Y MONITOREO DE:</h2>
+			<article class = "Servicios-Audio">
+				<figure class = "Servicios-AudioImageConteiner">
+					<a href="#audio_video" class = "Servicios-AudioImageLink">
+						<img  class = "Servicios-AudioImage" src="../static/images/audio_video.png"></a>
+					
+			</article>
 
-		<article id = "seguridad_electronica">
-			<figure>
-				<a href="seguridad_electronica.html"><img src="../static/images/seguridad_electronica.png"></a>
-				<figcaption>Seguridad Electrónica</figcaption>
-			</figure>
-		</article>
+			<article id = "ingenieria" class = "Servicios-Ingeniería">
+				<figure class = "Servicios-IngenieriaImageConteiner">
+					<a href="#ingenieria" class = "Servicios-IngenieriaImageConteinerLink"><img class = "Servicios-IngenieriaImage" src="../static/images/ingenieria.png"></a>
+					
+				</figure>
+			</article>
+
+		</section>
+
+		<section class ="Especialidades">
+			<h2> NUESTRAS ESPECIALIDADES EN CADA RUBRO SON: </h2>
+			
+			<article id = "seguridad_electronica" class = "Especialidades-SeguriElec">
+				<h2 class ="Especialidades-SeguriElectTitulo"> SEGURIDAD ELECTRONICA</h2>
+				<figure class = "Especialidades-SeguriElecImageConteiner">
+					<img src="../static/images/sge.jpg"/>
+				</figure>
+				<ul class = "Especialidades-SeguriELecLista">
+					<li>Videovigilancia</li>
+					<li>Sistemas de Control de Accesos</li>
+					<li>Sistemas de Deteción de Incendios</li>
+					<li>Automatización</li>
+					<li>Monitorero Remoto Vía IP</li>
+					<li>Sistema de Seguridad Perimétrica</li>
+					<li>Centros de Información y Control</li>
+				</ul>
+			</article>
+
+			<article id = "telecomunicaciones" class = "Especialidades-Telecomunicaciones">
+				<h2 class ="Especialidades-TelecomunicacionesTitulo"> TELECOMUNICACIONES</h2>
+				<figure class = "Especialidades-TelecomunicacionesImageConteiner">
+					<img src="../static/images/telecomunicaciones.jpg"/>
+				</figure>
+				<ul class = "Especialidades-TelecomunicacionesLista">
+					<li>Redes De Voz y Dato Con Cableado Estructurado</li>
+					<li>Fibra Óptica e Inalámbrica</li>
+					<li>Teléfono y Central Telefónica</li>
+					<li>Cableado Estructurado: 5E, 6, 6A</li>
+				</ul>
+			</article>
 		
-		<article id = "telecomunicaciones">
-			<figure>
-				<a href="telecomunicaciones.html"><img src="../static/images/telecomunicaciones.png"></a>
-				<figcaption>Telecomunicaciones</figcaption>
-			</figure>
-		</article>
 
-		<article id = "electricidad">
-			<figure>
-				<a href="electricidad.html"><img src = "../static/images/electricidad.png"></a>
-				<figcaption>Electricidad</figcaption>
-			</fiugre>
-		</article>
+			<article id = "electricidad" class = "Especialidades-Electricidad">
+				<h2 class ="Especialidades-ElectricidadTitulo"> ELECTRICIDAD</h2>
+				<figure class = "Especialidades-ElectricidadImageConteiner">
+					<img src="../static/images/Electricity.png"/>
+				</figure>
+				<ul class = "Especialidades-ElectricidadLista">
+					<li>Entubados Para Sistemas Eléctricos</li>
+					<li>Instalación de Montantes</li>
+					<li>Distribución Eléctrica: Iluminación</li>
+					<li>Sistemas de Puesta a Tierra</li>
+				</ul>
+			</article>
 
-		<article id = "audio_video">
-			<figure>
-				<a href="audio_video.html"><img src="../static/images/audio_video.png"></a>
-				<figcaption>Audio y Vídeo</figcaption>
-			</figure>
-		</article>
+			<article id = "audio_video" class = "Especialidades-Audio">
+				<h2 class ="Especialidades-AudioTitulo"> AUDIO Y VIDEO</h2>
+				<figure class = "Especialidades-AudioImageConteiner">
+					<img src="../static/images/audio.jpg"/>
+				</figure>
+				<ul class = "Especialidades-AudioLista">
+					<li>Locales Comerciales</li>
+					<li>Salas de Reuniones</li>
+					<li>Auditorios</li>
+					<li>Ambientes Hogareños</li>
+					<li>Showrooms</li>
+					<li>Espacios Publicitarios</li>
+					<li>Playrooms</li>
+				</ul>
+			</article>
 
-		<article id = "ingenieria">
-			<figure>
-				<a href="ingenieria.html"><img src="../static/images/ingenieria.png"></a>
-				<figcaption>Ingeniería</figcaption>
-			</figure>
-		</article>
+			<article id = "ingenieria" class = "Especialidades-Ingeniería">
+				<h2 class ="Especialidades-IngenieríaTitulo"> INGENIERIA</h2>
+				<figure class = "Especialidades-IngenieríaImageConteiner">
+					<img src="../static/images/ingenieria.jpg"/>
+				</figure>
+				<ul class = "Especialidades-IngenieríaLista">
+					<li>Construcciónes</li>
+					<li>Remodelaciónes</li>
+					<li>Consultorías</li>
+					<li>Automatización</li>
+					<li>Diseño</li>
+					<li>Servicios Generales</li>
+				</ul>
+			</article>
+		</section>
 
-	</section>
 
 
-	<section id = "contacto">
-			<h3>CONTACTO</h3>
-			<p> Contamos con profesionales altamente capacitados y <br>
-				calificados para brindar soluciones <br> 
-			    eficaces a las necesidades de su Empresa, <br>
-			    mediante la aplicación de tecnología de última generación.</p>
-		    <form id = "formulario">
-		    	<input type = "text" placeholder = "Nombre"/>
-		    	<input type = "email"placeholder = "E-Mail"/>
-		    	<textarea placeholder = "Comentario"></textarea> 
-		    	<button type = "submit">Envíar</button>
-	    	</form>
-	</section>
+		<section class =" Contacto">
+				<h3 class = "Contacto-Title">CONTACTO</h3>
+				<p class = "Contacto-Paragraph"> Contamos con profesionales altamente capacitados y <br>
+					calificados para brindar soluciones <br> 
+				    eficaces a las necesidades de su Empresa, <br>
+				    mediante la aplicación de tecnología de última generación.</p>
+				<p class = "Contacto-SecondParagraph">Envíanos un correo a : proyectos@torremaringenieros.com </p>
+		</section>
 
-	<footer>
-		
-	</footer>
-	<script type = "text/javascript" src = "../static/js/jQuery.js"></script>
+		<footer>
+			<p> Negociaciones Torremar ® 2014</p>
+
+		</footer>
+
+	 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src = "../static/js/script.js"></script>
+	<script type="text/javascript" src="../static/js/prefixfree.js"></script>
 </body>
 </html>
